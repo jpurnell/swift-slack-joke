@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logger"
+provides-nominal:
+- "C8Curassow6Logger"
+provides-member:
+- ["C8Curassow6Logger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Logger"
+- !private "UnicodeScalarType"
+- !private "time"
+- !private "strftime"
+- !private "FloatLiteralType"
+- !private "??"
+- !private "IntegerLiteralType"
+- !private "Data"
+- !private "print"
+- "String"
+- !private "StringLiteralType"
+- !private "localtime"
+- !private "getpid"
+depends-member:
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "bytes"]
+- !private ["Ps9AnyObject", "capacity"]
+- !private ["Ps9AnyObject", "currentTime"]
+- !private ["Ps9AnyObject", "getpid"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localtime"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "strftime"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", ""]
+- !private ["P9Commander19ArgumentConvertible", "init"]
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["C8Curassow4Data", "bytes"]
+- !private ["C8Curassow4Data", "capacity"]
+- !private ["C8Curassow4Data", "init"]
+- !private ["C8Curassow4Data", "string"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["C8Curassow6Logger", "Data"]
+- ["C8Curassow6Logger", "String"]
+- ["C8Curassow6Logger", "currentTime"]
+- ["C8Curassow6Logger", "deinit"]
+- !private ["C8Curassow6Logger", "getpid"]
+- ["C8Curassow6Logger", "info"]
+- ["C8Curassow6Logger", "init"]
+- !private ["C8Curassow6Logger", "localtime"]
+- !private ["C8Curassow6Logger", "print"]
+- !private ["C8Curassow6Logger", "strftime"]
+- !private ["C8Curassow6Logger", "time"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["SP", "deinit"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P9Commander19ArgumentConvertible"
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C8Curassow4Data"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "C8Curassow6Logger"
+- !private "Ps14MirrorPathType"
+- !private "Ps16OutputStreamType"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "SP"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Commander.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.swiftmodule"
+interface-hash: "f4cf792e84d0fdf212635517406a4ccd"

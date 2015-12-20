@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "bf02b3850cfd132977448d53be65936f"
+build_time: [503889598, 470400000]
+inputs:
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Arbiter.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Currasow.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Data.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/HTTPParser.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Logger.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Signals.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Socket.swift": [503889592, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Worker.swift": [503889592, 0]

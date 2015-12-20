@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "sharedHandler"
+- "SignalHandler"
+provides-nominal:
+- "C8Curassow13SignalHandler"
+- "OC8Curassow13SignalHandler6Signal"
+provides-member:
+- ["C8Curassow13SignalHandler", ""]
+- ["OC8Curassow13SignalHandler6Signal", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "SignalHandler"
+- !private "IntegerLiteralType"
+- "sharedHandler"
+- !private "SIGINT"
+- !private "SIGTTOU"
+- !private "SIGTTIN"
+- !private "signal"
+- !private "SIGQUIT"
+- "Dictionary"
+- !private "FloatLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "SIGINT"]
+- !private ["Ps9AnyObject", "SIGQUIT"]
+- !private ["Ps9AnyObject", "SIGTTIN"]
+- !private ["Ps9AnyObject", "SIGTTOU"]
+- !private ["Ps9AnyObject", "callbacks"]
+- !private ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "sharedHandler"]
+- !private ["Ps9AnyObject", "signal"]
+- ["Ps9AnyObject", ""]
+- !private ["P9Commander19ArgumentConvertible", "hashValue"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps28DictionaryLiteralConvertible", "Key"]
+- ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "Interrupt"]
+- !private ["Ps9Equatable", "Quit"]
+- !private ["Ps9Equatable", "TTIN"]
+- !private ["Ps9Equatable", "TTOU"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Interrupt"]
+- !private ["Ps8Hashable", "Quit"]
+- !private ["Ps8Hashable", "TTIN"]
+- !private ["Ps8Hashable", "TTOU"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- ["OC8Curassow13SignalHandler6Signal", "Interrupt"]
+- ["OC8Curassow13SignalHandler6Signal", "Quit"]
+- ["OC8Curassow13SignalHandler6Signal", "TTIN"]
+- ["OC8Curassow13SignalHandler6Signal", "TTOU"]
+- ["OC8Curassow13SignalHandler6Signal", "deinit"]
+- ["OC8Curassow13SignalHandler6Signal", "hashValue"]
+- !private ["C8Curassow13SignalHandler", "SIGINT"]
+- !private ["C8Curassow13SignalHandler", "SIGQUIT"]
+- !private ["C8Curassow13SignalHandler", "SIGTTIN"]
+- !private ["C8Curassow13SignalHandler", "SIGTTOU"]
+- ["C8Curassow13SignalHandler", "Signal"]
+- ["C8Curassow13SignalHandler", "callbacks"]
+- ["C8Curassow13SignalHandler", "deinit"]
+- ["C8Curassow13SignalHandler", "handle"]
+- ["C8Curassow13SignalHandler", "init"]
+- ["C8Curassow13SignalHandler", "register"]
+- ["C8Curassow13SignalHandler", "registerSignals"]
+- !private ["C8Curassow13SignalHandler", "sharedHandler"]
+- !private ["C8Curassow13SignalHandler", "signal"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P9Commander19ArgumentConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Ps11CVarArgType"
+- "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- "Ps12SequenceType"
+- "OC8Curassow13SignalHandler6Signal"
+- "C8Curassow13SignalHandler"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Commander.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.swiftmodule"
+interface-hash: "8c307a6238cad877c2d88b135b3ff837"

@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Nest>]
+  Nest: [<Nest>]
+
+commands:
+  <Nest-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    outputs: ["<Nest-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.swiftmodule","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    module-name: "Nest"
+    module-output-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.swiftmodule"
+    is-library: true
+    sources: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Nest-0.2.1/Sources/Nest.swift"]
+    objects: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    import-paths: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug"]
+    temps-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Nest"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Nest>:
+    tool: shell
+    inputs: ["<Nest-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    outputs: ["<Nest>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.a'; ar cr '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.a' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Sources/Nest.swift.o'"]
+    description: "Linking Library:  .build/debug/Nest.a"

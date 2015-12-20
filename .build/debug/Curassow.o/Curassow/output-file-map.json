@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/master.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Arbiter.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Arbiter.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Arbiter.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Arbiter~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Arbiter.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Currasow.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Currasow.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Currasow.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Currasow~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Currasow.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Data.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Data.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Data.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Data.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/HTTPParser.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/HTTPParser.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/HTTPParser.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/HTTPParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/HTTPParser.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Logger.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Logger.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Logger.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Logger.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Signals.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Signals.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Signals.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Signals~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Signals.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Socket.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Socket.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Socket.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Socket.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Worker.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Worker.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Worker.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Worker~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow/Worker.swiftdeps"
+  }
+}

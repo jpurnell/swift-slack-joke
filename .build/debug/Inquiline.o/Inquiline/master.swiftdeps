@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "208a60a2dc19561de0e01b5ccff2a7c4"
+build_time: [503889596, 453406000]
+inputs:
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Request.swift": [503889594, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Response.swift": [503889594, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Status.swift": [503889594, 0]

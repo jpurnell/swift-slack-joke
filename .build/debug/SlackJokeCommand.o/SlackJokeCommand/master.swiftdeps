@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "babae1da138c5cfd09e6e7e6813f6962"
+build_time: [503889674, 691273000]
+inputs:
+  "/Users/jpurnell/Documents/swift-slack-joke/Sources/Joke.swift": [503887051, 0]
+  "/Users/jpurnell/Documents/swift-slack-joke/Sources/main.swift": [503889667, 0]

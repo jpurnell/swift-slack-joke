@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/master.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Sources/Joke.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/Joke.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/Sources/Joke.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/Joke~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/Joke.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Sources/main.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/main.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/SlackJokeCommand.o/SlackJokeCommand/main.swiftdeps"
+  }
+}

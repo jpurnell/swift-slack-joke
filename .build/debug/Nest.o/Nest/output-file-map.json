@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Nest/master.swiftdeps"
+  },
+  "/Users/jpurnell/Documents/swift-slack-joke/Packages/Nest-0.2.1/Sources/Nest.swift": {
+    "dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Nest/Nest.d",
+    "object": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Sources/Nest.swift.o",
+    "swiftmodule": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Nest/Nest~partial.swiftmodule",
+    "swift-dependencies": "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.o/Nest/Nest.swiftdeps"
+  }
+}

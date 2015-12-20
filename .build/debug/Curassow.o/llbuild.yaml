@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Curassow>]
+  Curassow: [<Curassow>]
+
+commands:
+  <Curassow-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Arbiter.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Currasow.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Data.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/HTTPParser.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Logger.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Signals.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Socket.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Worker.swift"]
+    outputs: ["<Curassow-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.swiftmodule","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Arbiter.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Currasow.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Data.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/HTTPParser.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Logger.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Signals.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Socket.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Worker.swift.o"]
+    module-name: "Curassow"
+    module-output-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.swiftmodule"
+    is-library: true
+    sources: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Arbiter.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Currasow.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Data.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/HTTPParser.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Logger.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Signals.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Socket.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Curassow-0.2.0/Sources/Worker.swift"]
+    objects: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Arbiter.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Currasow.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Data.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/HTTPParser.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Logger.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Signals.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Socket.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Worker.swift.o"]
+    import-paths: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug"]
+    temps-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Curassow"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Curassow>:
+    tool: shell
+    inputs: ["<Curassow-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Arbiter.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Currasow.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Data.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/HTTPParser.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Logger.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Signals.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Socket.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Worker.swift.o"]
+    outputs: ["<Curassow>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.a'; ar cr '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.a' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Arbiter.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Currasow.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Data.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/HTTPParser.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Logger.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Signals.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Socket.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.o/Sources/Worker.swift.o'"]
+    description: "Linking Library:  .build/debug/Curassow.a"

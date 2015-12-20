@@ -1,0 +1,38 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Header"
+- "RequestType"
+- "ResponseType"
+- "Application"
+provides-nominal:
+- "P4Nest11RequestType"
+- "P4Nest12ResponseType"
+provides-member:
+- ["P4Nest11RequestType", ""]
+- ["P4Nest12ResponseType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RequestType"
+- "ResponseType"
+- "Application"
+- "String"
+- "Header"
+depends-member:
+- ["P4Nest11RequestType", "Header"]
+- ["P4Nest11RequestType", "String"]
+- ["P4Nest11RequestType", "body"]
+- ["P4Nest11RequestType", "headers"]
+- ["P4Nest11RequestType", "method"]
+- ["P4Nest11RequestType", "path"]
+- ["P4Nest12ResponseType", "Header"]
+- ["P4Nest12ResponseType", "String"]
+- ["P4Nest12ResponseType", "body"]
+- ["P4Nest12ResponseType", "headers"]
+- ["P4Nest12ResponseType", "statusLine"]
+depends-nominal:
+- "P4Nest11RequestType"
+- "P4Nest12ResponseType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+interface-hash: "5627013a6d253835082ed15cbfd74bdf"

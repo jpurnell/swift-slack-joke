@@ -1,0 +1,61 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Joke"
+- "StringLiteralType"
+- "Response"
+- "serve"
+depends-member:
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "NotFound"]
+- ["Ps23CustomStringConvertible", "Ok"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "NotFound"]
+- ["Ps9Equatable", "Ok"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "NotFound"]
+- ["Ps8Hashable", "Ok"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["V16SlackJokeCommand4Joke", "content"]
+- ["V16SlackJokeCommand4Joke", "tell"]
+- ["Sq", "deinit"]
+- ["Ps16RawRepresentable", "NotFound"]
+- ["Ps16RawRepresentable", "Ok"]
+- ["P4Nest11RequestType", "path"]
+- ["V9Inquiline8Response", "init"]
+- ["P4Nest12ResponseType", "init"]
+- ["O9Inquiline6Status", "NotFound"]
+- ["O9Inquiline6Status", "Ok"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V16SlackJokeCommand4Joke"
+- "Sq"
+- "Ps16RawRepresentable"
+- "P4Nest11RequestType"
+- "V9Inquiline8Response"
+- "P4Nest12ResponseType"
+- "O9Inquiline6Status"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Curassow.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Commander.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.swiftmodule"
+- "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Nest.swiftmodule"
+interface-hash: "89929fd9e13c7526ae9c29f6131ac3db"

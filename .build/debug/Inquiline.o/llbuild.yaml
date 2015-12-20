@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Inquiline>]
+  Inquiline: [<Inquiline>]
+
+commands:
+  <Inquiline-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Request.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Response.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Status.swift"]
+    outputs: ["<Inquiline-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.swiftmodule","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Request.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Response.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Status.swift.o"]
+    module-name: "Inquiline"
+    module-output-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.swiftmodule"
+    is-library: true
+    sources: ["/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Request.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Response.swift","/Users/jpurnell/Documents/swift-slack-joke/Packages/Inquiline-0.2.2/Sources/Status.swift"]
+    objects: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Request.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Response.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Status.swift.o"]
+    import-paths: ["/Users/jpurnell/Documents/swift-slack-joke/.build/debug"]
+    temps-path: "/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Inquiline"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Inquiline>:
+    tool: shell
+    inputs: ["<Inquiline-swiftc>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Request.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Response.swift.o","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Status.swift.o"]
+    outputs: ["<Inquiline>","/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.a'; ar cr '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.a' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Request.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Response.swift.o' '/Users/jpurnell/Documents/swift-slack-joke/.build/debug/Inquiline.o/Sources/Status.swift.o'"]
+    description: "Linking Library:  .build/debug/Inquiline.a"
