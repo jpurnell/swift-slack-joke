@@ -15,9 +15,10 @@ extension Array {
 struct Joke {
 	let content: String
 	static let builtinJokes = [
-		"Wanted: Swift developer with 5 years experience.",
-		"Something…Taylor Swift.",
-		"Swift: Still not Lisp.",
+		"First: Wanted: Swift developer with 5 years experience.",
+		"Second: Something...Taylor Swift related?",
+		"Third: Keep these jokes coming.",
+		"Fourth: Swift: Still not Lisp.",
 	]
 
 init(_ content: String) {
