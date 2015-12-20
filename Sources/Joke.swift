@@ -16,7 +16,7 @@ struct Joke {
 	let content: String
 	static let builtinJokes = [
 		"Wanted: Swift developer with 5 years experience.",
-		"Something…Taylor Swift?",
+		"Something…Taylor Swift",
 		"Swift: Still not Lisp.",
 	]
 
