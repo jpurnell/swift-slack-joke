@@ -4,9 +4,9 @@
 	import Darwin
 #endif
 
-// Array samle from http://stackoverflow.com/a/24101606
+// Array sample from http://stackoverflow.com/a/24101606
 extension Array {
-	func sample() -> Element {
+	func randomItem() -> Element {
 		let randomIndex = Int(rand()) % count
 		return self[randomIndex]
 	}
@@ -28,7 +28,7 @@ init(_ content: String) {
 
 // Tells one of our built in jokes
 static func tell() -> Joke {
-	let joke = Joke(Joke.builtinJokes.sample())
+	let joke = Joke(Joke.builtinJokes.randomItem())
 	return joke
 	}
 }
